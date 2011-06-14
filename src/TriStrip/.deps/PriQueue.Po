@@ -1,0 +1,5 @@
+PriQueue.o: PriQueue.C PriQueue.h PriQueueElem.h
+
+PriQueue.h:
+
+PriQueueElem.h:

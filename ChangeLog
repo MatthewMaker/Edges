@@ -1,0 +1,13 @@
+Oct 24 00:32:26 EDT 2000
+
+    Added "Op", a class that implements the "visitor" design pattern.
+    What it does is that it allows subclasses to provide a particular
+    functionality to the core classes of Edges without having to
+    change the code of latter.  An example is "IVOutputOp", originally
+    was code in each of the core Edges classes that outputs data
+    compatable to the Inventor format.  These methods are now taken
+    out of the core classes and put into IVOutputOp.
+
+    The rest of the classes are changed to make use of Op.
+
+
