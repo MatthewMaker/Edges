@@ -1,0 +1,36 @@
+$Id: README,v 1.1 2000/09/17 07:35:17 vchma Exp $
+#Log:$
+
+1) make sure that on the same dir level as "src" under "Edges",
+   you have these directories:
+
+		include
+		lib  
+		bin
+		data
+
+2) make sure you have a env variable called "EDGES" pointing
+   to the base directory were "src" sits.  mine at home is
+
+		/home/vma/Edges
+
+3) The executable you get after you compiled everything will
+   sit in $EDGES/src/silhouette (called silhouette for historical
+   reason.. will probably change soon)  if you run it, you will see an
+   interface like you will see in the screen shot section. by default
+   it will show nothing until you load in a model.  If you do, and it
+   loaded successfully, the default is for the program to display the
+   stripified version of the model.
+
+4) you can use the mouse to rotate the model around
+
+		left button = rotate
+		mid button = pan
+		right button = zoom
+
+5) if you unpress hidden line you will see the original mesh outlines
+   in blue.
+
+6) don't worry about the other UI widgets.. they may or may not work
+   for you.  If they do, you will the the silhouette edges of the
+   model.
